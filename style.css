@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: 'Bebas Neue', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+.title {
+    color: #264363;
+    font-size: 30px;
+    bottom: 0;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    max-width: 600px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.form-container {
+    width: 50%;
+}
+
+.icon-container {
+    width: 40%;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #333;
+}
+
+label {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+input[type="number"] {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    color: #264363;
+    border: 1px solid #264363;
+    background-color: #fff;
+    /* border-color: #264363; */
+    /* border: none; */
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    color: #3e6998;
+    /* color: #b43430; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#message {
+    font-size: 14px;
+    color: #d9534f;
+    text-align: center;
+}
+
+#attempts {
+    font-size: 1rem;
+    color: #333;
+}
+
+#attemptsCount {
+    color: #648fbd;
+}
