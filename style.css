@@ -6,14 +6,19 @@ body {
     align-items: center;
     height: 100vh;
     background-color: #f4f4f4;
-}
-.title {
+  }
+  
+  svg {
+    fill: #e9d281;
+  }
+  
+  .title {
     color: #264363;
     font-size: 30px;
     bottom: 0;
-}
-
-.container {
+  }
+  
+  .container {
     display: flex;
     width: 100%;
     max-width: 600px;
@@ -23,46 +28,46 @@ body {
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-}
-
-.form-container {
+  }
+  
+  .form-container {
     width: 50%;
-}
-
-.icon-container {
+  }
+  
+  .icon-container {
     width: 40%;
     text-align: center;
-}
-
-form {
+  }
+  
+  form {
     display: flex;
     flex-direction: column;
     gap: 10px;
-}
-
-h1 {
+  }
+  
+  h1 {
     margin-bottom: 20px;
     font-size: 2rem;
     color: #333;
-}
-
-label {
+  }
+  
+  label {
     font-size: 1.2rem;
     color: #555;
-}
-
-input[type="number"] {
+  }
+  
+  input[type="number"] {
     padding: 10px;
     font-size: 1rem;
     border: 1px solid #ddd;
     border-radius: 5px;
-}
-
-button {
+  }
+  
+  button {
     padding: 10px 20px;
     font-size: 16px;
     font-weight: 600;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #264363;
     border: 1px solid #264363;
     background-color: #fff;
@@ -72,25 +77,25 @@ button {
     cursor: pointer;
     transition: all 0.3s ease-in-out;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
-}
-
-button:hover {
+  }
+  
+  button:hover {
     color: #3e6998;
     /* color: #b43430; */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
-
-#message {
+  }
+  
+  #message {
     font-size: 14px;
     color: #d9534f;
     text-align: center;
-}
-
-#attempts {
+  }
+  
+  #attempts {
     font-size: 1rem;
     color: #333;
-}
-
-#attemptsCount {
+  }
+  
+  #attemptsCount {
     color: #648fbd;
-}
+  }
