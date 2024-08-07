@@ -22,4 +22,6 @@ Bem-vindo ao **Jogo de Adivinhação de Valor**! Teste suas habilidades e veja s
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir **issues** ou enviar **pull requests**.
 
+##### Acesse a aplicação por meio deste link: `https://eduardabenevenutti77.github.io/JogoAdivinha_v2/frontend/index.html`
+
 ---
