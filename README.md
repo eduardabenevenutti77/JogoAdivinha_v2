@@ -1,6 +1,6 @@
 ---
 
-# Jogo de Adivinhação de Valor - JogoAdivinha_v2 🚀🚀👩‍💻
+# Jogo de Adivinhação de Valor - JogoAdivinha_v2 🚀👩‍💻
 
 Bem-vindo ao **Jogo de Adivinhação de Valor**! Teste suas habilidades e veja se consegue adivinhar o número secreto gerado aleatoriamente.
 
