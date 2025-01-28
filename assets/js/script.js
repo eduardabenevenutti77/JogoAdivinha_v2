@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (guess === targetNumber) {
       messageElement.textContent = "Parabéns! Você acertou o número!";
       form.reset();
-      attemptsLeft = maxAttempts; // Reinicia o número de tentativas
+      attemptsLeft = maxAttempts; 
       attemptsElement.textContent = attemptsLeft;
       targetNumber = getRandomNumber();
       return;
@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (attemptsLeft <= 0) {
       messageElement.textContent = `Você perdeu! O número era ${targetNumber}.`;
       form.reset();
-      attemptsLeft = maxAttempts; // Reinicia o número de tentativas
+      attemptsLeft = maxAttempts; 
       attemptsElement.textContent = attemptsLeft;
       targetNumber = getRandomNumber();
     } else {
